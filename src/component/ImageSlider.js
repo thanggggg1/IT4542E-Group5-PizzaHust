@@ -34,31 +34,6 @@ export const ImageSlider = memo(function ImageSlider() {
   }
 
   return (
-    // <Container>
-    //     <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}
-    //     >
-    //         {images.map((slider,index)=>{
-    //             return <div
-    //             className={index===current ? 'slide active' : 'slide'}
-    //             key={index}
-    //             >
-    //                 {
-    //                     index===current && (
-    //                         <ImageSlide src={slider.imgPath}  key={index}/>
-    //                     )
-    //                 }
-    //             </div>
-    //         })}
-    //     </div>
-    //       <RowSection>
-    //           <ActionLeftButton>
-    //               <ImageButtonAction src={IC_BACK}/>
-    //           </ActionLeftButton>
-    //           <ActionRightButton>
-    //               <ImageButtonAction src={IC_NEXT}/>
-    //           </ActionRightButton>
-    //       </RowSection>
-    // </Container>
     <Container>
       <ImageSlide src={IMG_SLIDER} />
     </Container>
